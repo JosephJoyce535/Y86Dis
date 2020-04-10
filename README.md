@@ -45,3 +45,5 @@ To install and use this program you need to have terminal software such as PuTTY
 ## Troubleshooting:
 	[Email](joycejk1@appstate.edu) the support team for additional help.
 ## License
+	[MIT](https://github.com/JosephJoyce535/Y86Dis/blob/gh-pages/LICENSE)
+	
