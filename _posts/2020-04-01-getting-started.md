@@ -1,8 +1,8 @@
+
 ---
 layout: post
 title:  "Getting Started"
 date:   2020-04-01 12:26:41 -0400
-categories: jekyll update
 ---
 
 # Introduction: 
@@ -10,7 +10,13 @@ categories: jekyll update
 Welcome to my Y86 disassembler. 
 
 This application is used to read in Y86 .obj files, or files still in their hexadecimal encoding of the Y86 assembly language and translate them to readable y86 code files for the user.
-	
+
+* Before Disassembly this is prog1.obj
+![Before Disassembling](https://github.com/JosephJoyce535/Y86Dis/blob/gh-pages/P2image2.jpg?raw=true)
+
+* After Disassembly this is prog1.obj converted to a .yo Y86 code file
+![After Disassembling](https://github.com/JosephJoyce535/Y86Dis/blob/gh-pages/P2image3.jpg?raw=true)
+
 # Authors: 
 
 * Joseph Joyce
@@ -58,13 +64,15 @@ To install and use this program you need to have terminal software such as PuTTY
 * [WinSCP](https://winscp.net/eng/docs/guide_install)
 
 **Instructions**
-	
+
 1.	After these are installed, and you’re familiar in their use, copy all the included files from the Y86Dis folder into the directory you wish to use the application.
 2.	Navigate to this directory inside of PuTTY or other terminal based software.
 3.	Type and enter “make” to compile and clean the project.
 4.	Type “./y86dis” and press enter.
 5.	Type “prog1.obj” and press enter. This will output the disassembly of prog1.obj to the terminal. To test another file you would just type and enter the filename during this step.
 6.	If you wish to disassemble other Y86 .obj files either copy them here or write them here using your favorite text editor and use steps 4 through 6 to run them.
+
+![Instructions](https://github.com/JosephJoyce535/Y86Dis/blob/gh-pages/P2image1.jpg?raw=true)
 
 # FAQ’s:
 	
@@ -73,5 +81,5 @@ To install and use this program you need to have terminal software such as PuTTY
 
 # Troubleshooting:
 Email the support team at joycejk1@appstate.edu for additional help.
-# License
+## License
 [MIT](https://github.com/JosephJoyce535/Y86Dis/blob/gh-pages/LICENSE)
