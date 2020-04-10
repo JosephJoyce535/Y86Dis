@@ -9,7 +9,13 @@ date:   2020-04-01 12:26:41 -0400
 Welcome to my Y86 disassembler. 
 
 This application is used to read in Y86 .obj files, or files still in their hexadecimal encoding of the Y86 assembly language and translate them to readable y86 code files for the user.
+
+* Before Disassembly this is prog1.obj
 ![Before Disassembling](https://github.com/JosephJoyce535/Y86Dis/blob/gh-pages/P2image2.jpg?raw=true)
+
+* After Disassembly this is prog1.obj converted to a .yo Y86 code file
+![After Disassembling](https://github.com/JosephJoyce535/Y86Dis/blob/gh-pages/P2image3.jpg?raw=true)
+
 # Authors: 
 
 * Joseph Joyce
