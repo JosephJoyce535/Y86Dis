@@ -10,10 +10,10 @@ Welcome to my Y86 disassembler.
 
 This application is used to read in Y86 .obj files, or files still in their hexadecimal encoding of the Y86 assembly language and translate them to readable y86 code files for the user.
 
-* Before Disassembly this is prog1.obj
+_Before Disassembly this is prog1.obj_
 ![Before Disassembling](https://github.com/JosephJoyce535/Y86Dis/blob/gh-pages/P2image2.jpg?raw=true)
 
-* After Disassembly this is prog1.obj converted to a .yo Y86 code file
+_After Disassembly this is prog1.obj converted to a .yo Y86 code file_
 ![After Disassembling](https://github.com/JosephJoyce535/Y86Dis/blob/gh-pages/P2image3.jpg?raw=true)
 
 # Authors: 
@@ -58,18 +58,24 @@ Below is an excerpt from the y86dis.cpp file displaying the detR method. The met
 # Installation use:
 **Requirements**
 	
-To install and use this program you need to have terminal software such as PuTTY and file handling software such as WinSCP to run the commands and download the files from the project. If you don’t already have this software on your machine follow the links below and get comfortable using both before moving forward.
+1. 	To install and use this program you need to have terminal software such as PuTTY and file handling software such as WinSCP to run the commands and download the files from the project. 
+2.	If you don’t already have this software on your machine follow the links below and get comfortable using both before moving forward.
 * [PuTTY](https://www.putty.org/)
 * [WinSCP](https://winscp.net/eng/docs/guide_install)
 
 **Instructions**
+After you have the required software installed and are familiar in it's use please proceed.
+1.	Copy all the included files from the Y86Dis folder into the directory you wish to use the application.
+2.	Open PuTTY
+3.	Navigate to the directory in PuTTY containing the files.
+4.	Type and enter “make” to compile and clean the project.
+5.	Type “./y86dis” and press enter.
+6.	Type “prog1.obj” and press enter. 
+	* This will output the disassembly of prog1.obj to the terminal. 
+	* To test another file you would just type and enter the filename during this step.
 
-1.	After these are installed, and you’re familiar in their use, copy all the included files from the Y86Dis folder into the directory you wish to use the application.
-2.	Navigate to this directory inside of PuTTY or other terminal based software.
-3.	Type and enter “make” to compile and clean the project.
-4.	Type “./y86dis” and press enter.
-5.	Type “prog1.obj” and press enter. This will output the disassembly of prog1.obj to the terminal. To test another file you would just type and enter the filename during this step.
-6.	If you wish to disassemble other Y86 .obj files either copy them here or write them here using your favorite text editor and use steps 4 through 6 to run them.
+* If you wish to disassemble other Y86 .obj files either copy them here or write them here using your favorite text editor and use steps 4 through 6 to run them.
+* Below you can see an example of going through steps 4 through 6.
 
 ![Instructions](https://github.com/JosephJoyce535/Y86Dis/blob/gh-pages/P2image1.jpg?raw=true)
 
