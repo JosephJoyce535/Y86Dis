@@ -24,12 +24,12 @@ _After Disassembly this is prog1.obj converted to a .yo Y86 code file_
 # Description of Equipment/ List of Materials:
 
 * _y86dis.cpp_ – this is the C++ source file containing all the code for this assignment, it reads in the name of a .obj file in the directory and outputs the disassembled contents of the file.
-* _makefile_ – this file is used to tie together the dependencies of the overall project; it also serves to remove unneeded output files during the testing stage of development. When typing the “make” command into the terminal the user compiles the entire project and cleans out non-essential files.
-* _prog1.obj_ – this is the default file in the directory used to demonstrate the function of the disassembler. You will need to add your own .obj files to run them.
+* _makefile_ – this file is used to tie together the dependencies of the overall project; it also serves to remove unneeded output files during the testing stage of development. When typing the **“make”** command into the terminal the user compiles the entire project and cleans out non-essential files.
+* _prog1.obj_ – this is the default file in the directory used to demonstrate the function of the disassembler. **You will need to add your own .obj files to run them.**
 
 # Code Example:
 
-Below is an excerpt from the y86dis.cpp file displaying the detR method. The method in it’s entirety has not been included, but this excerpt is sufficient to show how it functions. The method is passed a string that is only one character in length. The method processes the string through an if-else if ladder that assigns and then returns the register name associated with the character. If the character doesn’t correspond to any register an error message is returned.
+Below is an excerpt from the y86dis.cpp file displaying the detR method. **The method in it’s entirety has not been included**, but this excerpt is sufficient to show how it functions. The method is passed a string that is only one character in length. The method processes the string through an if-else if ladder that assigns and then returns the register name associated with the character. If the character doesn’t correspond to any register an error message is returned.
 	
 	std::string detR(std::string rA)
 	{
@@ -58,14 +58,14 @@ Below is an excerpt from the y86dis.cpp file displaying the detR method. The met
 # Installation use:
 **Requirements**
 	
-1. 	To install and use this program you need to have terminal software such as PuTTY and file handling software such as WinSCP to run the commands and download the files from the project. 
+1. 	To install and use this program you need to have terminal software such as **PuTTY** and file handling software such as **WinSCP** to run the commands and download the files from the project. 
 2.	If you don’t already have this software on your machine follow the links below and get comfortable using both before moving forward.
 * [PuTTY](https://www.putty.org/)
 * [WinSCP](https://winscp.net/eng/docs/guide_install)
 
 **Instructions**
 After you have the required software installed and are familiar in it's use please proceed.
-1.	Copy all the included files from the Y86Dis folder into the directory you wish to use the application.
+1.	Copy all the included files from the **Y86Dis** folder into the directory you wish to use the application.
 2.	Open PuTTY
 3.	Navigate to the directory in PuTTY containing the files.
 4.	Type and enter “make” to compile and clean the project.
